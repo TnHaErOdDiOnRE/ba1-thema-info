@@ -1,0 +1,1 @@
+echo "creating folder <week01>\nGetting cat pics...";mkdir week01;cd week01;curl http://i.imgur.com/XhME3.jpg -o "XhME";curl http://i.imgur.com/tAWXnyN.jpg -o "tAWXnyN";curl http://i.imgur.com/DKUR9Tk.png -o "DKUR9TK";touch .hidden_file

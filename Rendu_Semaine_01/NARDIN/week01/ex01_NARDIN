@@ -1,0 +1,10 @@
+ls -a
+mkdir Catpics
+cd Catpics
+pwd
+cp * .
+mv * catpic_01\,02\,03
+mv *.{ext} > jpeg
+My name is Theodore and my favorite cat pic is the first one\n > favorite.txt
+ls -l > ls_options
+cat -e favorite.txt

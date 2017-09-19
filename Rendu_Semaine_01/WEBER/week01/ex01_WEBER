@@ -1,0 +1,17 @@
+ls -al
+mkdir Catpics
+cd Catpics/
+pwd
+cd ..
+cp DKUR9TK XhME tAWXnyN Catpics/
+rm DKUR9TK XhME tAWXnyN
+cd Catpics
+mv DKUR9TK catpic_01.jpeg
+mv XhME catpic_02.jpeg
+mv tAWXnyN catpic_03.jpeg
+cd ..
+echo "My name is Fabien Weber and my favorite cat pic is the number 2" >> favorite.txt
+touch ls_options
+echo "ls -mpRt" >> ls_options
+sh ls_options
+cat favorite.txt

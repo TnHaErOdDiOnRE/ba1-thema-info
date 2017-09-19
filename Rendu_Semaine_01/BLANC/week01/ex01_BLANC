@@ -1,0 +1,45 @@
+blanc@blanc-X555LJ:~$ echo "creating folder <week01>\nGetting cat pics...";mkdir week01;cd week01;curl http://i.imgur.com/XhME3.jpg -o "XhME";curl http://i.imgur.com/tAWXnyN.jpg -o "tAWXnyN";curl http://i.imgur.com/DKUR9Tk.png -o "DKUR9TK";touch .hidden_file
+creating folder <week01>\nGetting cat pics...
+mkdir: impossible de créer le répertoire «week01»: Le fichier existe
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 87470  100 87470    0     0   290k      0 --:--:-- --:--:-- --:--:--  291k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 46015  100 46015    0     0   219k      0 --:--:-- --:--:-- --:--:--  219k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  144k  100  144k    0     0   520k      0 --:--:-- --:--:-- --:--:--  521k
+blanc@blanc-X555LJ:~/week01$ 
+blanc@blanc-X555LJ:~/week01$ ls -la
+total 304
+drwxrwxr-x  3 blanc blanc   4096 sept. 15 23:05 .
+drwxr-xr-x 19 blanc blanc   4096 sept. 15 22:58 ..
+drwxrwxr-x  2 blanc blanc   4096 sept. 15 23:00 catpics
+-rw-rw-r--  1 blanc blanc 147913 sept. 15 23:05 DKUR9TK
+-rw-rw-r--  1 blanc blanc     57 sept. 15 23:00 favorite.txt
+-rw-rw-r--  1 blanc blanc      0 sept. 15 23:05 .hidden_file
+-rw-rw-r--  1 blanc blanc     12 sept. 15 23:00 ls_options
+-rw-rw-r--  1 blanc blanc  46015 sept. 15 23:05 tAWXnyN
+-rw-rw-r--  1 blanc blanc  87470 sept. 15 23:05 XhME
+blanc@blanc-X555LJ:~/week01$ mkdir catpics
+mkdir: impossible de créer le répertoire «catpics»: Le fichier existe
+blanc@blanc-X555LJ:~/week01$ cd catpics
+blanc@blanc-X555LJ:~/week01/catpics$ pwd
+/home/blanc/week01/catpics
+blanc@blanc-X555LJ:~/week01/catpics$ 
+blanc@blanc-X555LJ:~/week01/catpics$ cd ..
+blanc@blanc-X555LJ:~/week01$ cp DKUR9TK XhME tAWXnyN catpics/
+blanc@blanc-X555LJ:~/week01$ cd catpics
+blanc@blanc-X555LJ:~/week01/catpics$ mv DKUR9TK catpic_01.JPEG
+blanc@blanc-X555LJ:~/week01/catpics$ mv XhME catpic_02.JPEG
+blanc@blanc-X555LJ:~/week01/catpics$ mv tAWXnyN catpic_03.JPEG
+blanc@blanc-X555LJ:~/week01/catpics$ cd ..
+blanc@blanc-X555LJ:~/week01$ rm DKUR9TK XhME tAWXnyN
+blanc@blanc-X555LJ:~/week01$ 
+blanc@blanc-X555LJ:~/week01$ echo "My name is Thomas BLANC, and my favorite catpic is the 02 " > favorite.txt
+blanc@blanc-X555LJ:~/week01$ echo "ls -A -T -F" > ls_options
+blanc@blanc-X555LJ:~/week01$ sh ls_options
+ls: invalid tab size: «-F»
+blanc@blanc-X555LJ:~/week01$ cat favorite.txt
+

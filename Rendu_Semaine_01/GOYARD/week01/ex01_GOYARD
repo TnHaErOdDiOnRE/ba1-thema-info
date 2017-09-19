@@ -1,0 +1,24 @@
+Step 1
+
+ls -la
+mkdir Catpics
+cd Catpics/
+pwd
+/home/goyard/week01/Catpics
+
+Step 2 
+
+cd ..
+mv DKUR9TK tAWXnyN XhME Catpics
+cd Catpics/
+mv DKUR9TK catpic_01.jpeg
+mv tAWXnyN catpic_02.jpeg
+mv XhME catpic_03.jpeg
+touch favorite.txt
+
+Step 3
+
+echo "My name is Martin GOYARD and my favorite cat pic is catpic_03.jpeg" > favorite.txt
+touch ls_options
+echo "ls -A --format=commas -m --sort=time -t -p" > ls_options
+cat -E favorite.txt

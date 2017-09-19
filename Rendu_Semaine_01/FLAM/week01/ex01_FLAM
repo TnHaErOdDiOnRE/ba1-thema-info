@@ -1,0 +1,10 @@
+ls -la
+mkdir Catpics
+cd Catpics
+pwd
+mv ../XhME catpic_01.jpeg
+mv ../tAWXnyN catpic_02.jpeg
+mv ../DKUR9TK catpic_03.jpeg
+echo "My name is Clement Flam and my favorite cat pic is catpic_01" > favorite.txt
+echo "ls -lmpt" > ls_option
+cat -e favorite.txt

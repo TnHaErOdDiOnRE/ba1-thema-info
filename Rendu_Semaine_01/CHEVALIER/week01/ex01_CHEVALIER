@@ -1,0 +1,18 @@
+ls -la
+mkdir catpics
+cd catpics
+pwd
+
+cd ..
+cp DKUR9TK XhME tAWXnyN catpics/
+cd catpics
+mv DKUR9TK catpic_01.JPEG
+mv XhME catpic_02.JPEG
+mv tAWXnyN catpic_03.JPEG
+cd ..
+rm DKUR9TK XhME tAWXnyN
+
+echo "my name is baptiste chevalier and my favorite catpic is the 02" > favorite.txt
+echo "ls -A -T -F" > ls_options
+sh ls_options
+cat favorite.txt

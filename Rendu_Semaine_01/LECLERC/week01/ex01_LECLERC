@@ -1,0 +1,13 @@
+ls -la;
+mkdir Catpics;
+cd Catpics;
+pwd;
+mv ../DKUR9TK ../tAWXnyN ../XhME .;
+
+
+j=1; for i in *; do mv "$i" catpic_0"$j".jpeg; let j=j+1; done;
+
+
+echo "My name is Maxence LECLERC and my favorite cat pic is catpic_02" >> ../favorite.txt;
+echo "ls -mpRt" >> ../ls_options;
+cat -e ../favorite.txt;

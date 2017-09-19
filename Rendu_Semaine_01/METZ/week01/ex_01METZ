@@ -1,0 +1,20 @@
+ls -al
+#Permet de lister tous les fichiers sous format colonne (y compris les fichiers cachés)
+mkdir Catpics
+#Création du dossier Catpics
+cd Catpics/
+#On passe du dossier Week01 au dossier Catpics#
+pwd
+#Print working directory : on affiche le nom du répertoire actuel
+cd ..
+#Je reviens dans le répertoire parent week01
+mv XhME catpic_01.jpeg
+mv DKUR9TK catpic_02.jpeg
+mv tAWXnyN catpic_03.jpeg
+mv catpic_01.jpeg catpic_02.jpeg catpic_03.jpeg Catpics/
+#je renomme puis déplace les fichiers dans catpics ils sont donc supprimés de week 01"
+echo "My name is METZ Norman and my favorite CatPic is the number 1 ofc" >> favorite.txt
+touch ls_options
+echo "ls -mpRt" >> ls_options
+sh ls_options
+cat favorite.txt

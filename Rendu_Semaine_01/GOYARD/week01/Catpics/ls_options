@@ -1,0 +1,1 @@
+ls -A --format=commas -m --sort=time -t -p

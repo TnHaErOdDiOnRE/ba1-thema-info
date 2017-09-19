@@ -1,0 +1,26 @@
+antoine@antoine-X550JX:~/week01$ ls -a
+antoine@antoine-X550JX:~/week01$ mkdir Catpics
+antoine@antoine-X550JX:~/week01$ cd Catpics
+antoine@antoine-X550JX:~/week01/Catpics$ pwd
+antoine@antoine-X550JX:~/week01$ cp DKUR9TK Catpics/
+antoine@antoine-X550JX:~/week01$ cp tAWXnyN  Catpics/
+antoine@antoine-X550JX:~/week01$ cp XhME Catpics/
+antoine@antoine-X550JX:~/week01/Catpics$ mv DKUR9TK catpic_01
+antoine@antoine-X550JX:~/week01/Catpics$ mv tAWXnyN catpic_02
+antoine@antoine-X550JX:~/week01/Catpics$ mv XhME catpic_03
+antoine@antoine-X550JX:~/week01/Catpics$ mv catpic_01 catpic_01.jpeg
+antoine@antoine-X550JX:~/week01/Catpics$ mv catpic_02 catpic_02.jpeg
+antoine@antoine-X550JX:~/week01/Catpics$ mv catpic_03 catpic_03.jpeg
+antoine@antoine-X550JX:~/week01$ rm DKUR9TK tAWXnyN XhME 
+antoine@antoine-X550JX:~/week01$ touch favorite.txt
+antoine@antoine-X550JX:~/week01$ echo "My name is Antoine Moutot and my favorite catpic is Catpic_01.jpeg
+> " > favorite.txt
+antoine@antoine-X550JX:~/week01$ cat favorite.txt 
+My name is Antoine Moutot and my favorite catpic is Catpic_01.jpeg
+antoine@antoine-X550JX:~/week01$ touch Is_options
+antoine@antoine-X550JX:~/week01$ echo "ls -l -p -m" > Is_options 
+antoine@antoine-X550JX:~/week01$ cat Is_options 
+ls -l -p -m
+antoine@antoine-X550JX:~/week01$ cat -E favorite.txt 
+My name is Antoine Moutot and my favorite catpic is Catpic_01.jpeg$
+$
